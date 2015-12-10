@@ -1,0 +1,78 @@
+$screen-xs-min: 480px !default;
+
+$screen-sm-min: 768px !default;
+
+$screen-md-min: 992px !default;
+
+$screen-lg-min: 1200px !default;
+
+
+$sizing: "auto" 0 1 2 5 8 10 15 25 50 -1 -2 -5 -10 !default;
+
+
+
+$bordersizes: 0 1 2 !default;
+
+
+
+$mins: (
+	"-min-xs": $screen-xs-min,
+	"-min-sm": $screen-sm-min,
+	"-min-md": $screen-md-min,
+	"-min-lg": $screen-lg-min
+) !default;
+
+// Maxes no longer supported
+/* $maxes: (
+	"-max-xs": $screen-xs-max,
+	"-max-sm": $screen-sm-max,
+	"-max-md": $screen-md-max
+);
+
+$medias: (
+	"min-width: ": $mins,
+	"max-width: ": $maxes
+); */
+
+$medias: (
+	"min-width: ": $mins
+) !default;
+
+
+
+$colors: (
+	"white": #fff
+) !default;
+
+
+
+$texts: (
+	"1": 30,
+	"2": 24,
+	"3": 18,
+	"4": 16,
+	"5": 14,
+	"6": 12
+) !default;
+
+
+
+$directions: (
+	"t": "top",
+	"r": "right",
+	"b": "bottom",
+	"l": "left"
+) !default;
+
+
+
+$overflows: (
+	"h": "hidden",
+	"v": "visible",
+	"a": "auto",
+	"s": "scroll"
+) !default;
+
+
+
+$rounded: 4px !default;

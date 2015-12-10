@@ -1,0 +1,7 @@
+@each $med, $size in $medias {
+	@each $class, $media in $size {
+		@media screen and (#{$med}#{$media}) {
+			@import 'classes';
+		}
+	}
+}

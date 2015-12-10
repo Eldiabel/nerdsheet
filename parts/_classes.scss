@@ -1,0 +1,185 @@
+// .nomarg no longer supported, use combination of .h-m-0 and .v-m-0 instead
+/* .nomarg#{$class} {
+	margin: 0;
+} */
+
+// .automarg, .center no longer supported, use h-m-auto and v-m-auto instead
+/* .automarg#{$class}, .center#{$class} {
+	margin: auto;
+} */
+
+// .nopad no longer supported, use combination of .h-p-0 and .v-p-0 instead
+/* .nopad#{$class} {
+	padding: 0;
+} */
+
+@each $name, $text in $texts {
+	.t#{$name}#{$class},
+	.t#{$name}#{$class}-hover:hover {
+		font-size: #{$text};
+	}
+}
+
+.d-b#{$class} {
+	display: block;
+}
+
+.d-i#{$class} {
+	display: inline;
+}
+
+.d-ib#{$class} {
+	display: inline-block;
+}
+
+.d-t#{$class} {
+	display: table;
+}
+
+.d-tr#{$class} {
+	display: table-row;
+}
+
+.d-tc#{$class} {
+	display: table-cell;
+}
+
+.fleft#{$class}, .f-l#{$class} {
+	float: left;
+}
+
+.fright#{$class}, .f-r#{$class} {
+	float: right;
+}
+
+.fnone#{$class}, .f-n#{$class} {
+	float: none;
+}
+
+.fw-200#{$class}, .fw-l#{$class},
+.fw-200#{$class}-hover:hover, .fw-l#{$class}-hover:hover {
+	font-weight: 200;
+}
+
+.fw-300#{$class}, .fw-t#{$class},
+.fw-300#{$class}-hover:hover, .fw-t#{$class}-hover:hover {
+	font-weight: 300;
+}
+
+.fw-400#{$class}, .fw-n#{$class},
+.fw-400#{$class}-hover:hover, .fw-n#{$class}-hover:hover {
+	font-weight: normal;
+}
+
+.fw-500#{$class}, .fw-sb#{$class},
+.fw-500#{$class}-hover:hover, .fw-sb#{$class}-hover:hover {
+	font-weight: 500;
+}
+
+.fw-600#{$class}, .fw-b#{$class},
+.fw-600#{$class}-hover:hover, .fw-b#{$class}-hover:hover  {
+	font-weight: bold;
+}
+
+.ta-l#{$class} {
+	text-align: left;
+}
+
+.ta-r#{$class} {
+	text-align: right;
+}
+
+.ta-c#{$class} {
+	text-align: center;
+}
+
+.ta-j#{$class} {
+	text-align: justify;
+}
+
+.va-m#{$class} {
+	vertical-align: middle!important;
+}
+
+.va-t#{$class} {
+	vertical-align: top!important;
+}
+
+.va-b#{$class} {
+	vertical-align: bottom!important;
+}
+
+@each $name, $color in $colors {
+	.c-#{$name}#{$class},
+	.c-#{$name}#{$class}-hover:hover {
+		color: #{$color};
+	}
+
+	.b-#{$name}#{$class},
+	.b-#{$name}#{$class}-hover:hover {
+		background-color: #{$color};
+	}
+
+	.bo-#{$name}#{$class},
+	.bo-#{$name}#{$class}-hover:hover {
+		border-color: #{$color};
+	}
+}
+
+@each $size in $bordersizes {
+	.bo-#{$size}#{$class},
+	.bo-#{$size}#{$class}-hover:hover {
+		border-width: #{$size};
+	}
+}
+
+@each $size in $sizing {
+	@if $size != "auto" {
+		@if $size >= 0 {
+			.v-p-#{$size}#{$class} {
+				@extend .p-t-#{$size}#{$class};
+				@extend .p-b-#{$size}#{$class};
+			}
+
+			.h-p-#{$size}#{$class} {
+				@extend .p-l-#{$size}#{$class};
+				@extend .p-r-#{$size}#{$class};
+			}
+		}
+	}
+
+	.v-m-#{$size}#{$class} {
+		@extend .m-t-#{$size}#{$class};
+		@extend .m-b-#{$size}#{$class};
+	}
+
+	.h-m-#{$size}#{$class} {
+		@extend .m-l-#{$size}#{$class};
+		@extend .m-r-#{$size}#{$class};
+	}
+
+	@each $short, $direction in $directions {
+		@if $size != "auto" {
+			@if $size >= 0 {
+				.p-#{$short}-#{$size}#{$class} {
+					padding-#{$direction}: #{$size}px;
+				}
+
+				.m-#{$short}-#{$size}#{$class} {
+					margin-#{$direction}: #{$size}px;
+				}
+			}
+		}
+
+		@if $size == "auto" {
+			.m-#{$short}-#{$size}#{$class} {
+				margin-#{$direction}: #{$size};
+			}
+		}
+	}
+}
+
+// .hide no longer supported in this version
+/* .hide#{$class} {
+	display: none!important;
+} */
