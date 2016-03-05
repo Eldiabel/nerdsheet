@@ -7,7 +7,7 @@ $screen-md-min: 992px !default;
 $screen-lg-min: 1200px !default;
 
 
-$sizing: "auto" 0 1 2 5 8 10 15 25 50 -1 -2 -5 -10 !default;
+$sizing: "auto" 0 5 8 10 15 25 50 !default;
 
 
 
@@ -21,18 +21,6 @@ $mins: (
 	"-min-md": $screen-md-min,
 	"-min-lg": $screen-lg-min
 ) !default;
-
-// Maxes no longer supported
-/* $maxes: (
-	"-max-xs": $screen-xs-max,
-	"-max-sm": $screen-sm-max,
-	"-max-md": $screen-md-max
-);
-
-$medias: (
-	"min-width: ": $mins,
-	"max-width: ": $maxes
-); */
 
 $medias: (
 	"min-width: ": $mins
