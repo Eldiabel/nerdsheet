@@ -1,6 +1,6 @@
 @each $name, $text in $texts {
-	.t#{$name}#{$class},
-	.t#{$name}#{$class}-hover:hover {
+	.fs#{$name}#{$class},
+	.fs#{$name}#{$class}-hover:hover {
 		font-size: #{$text};
 	}
 }
