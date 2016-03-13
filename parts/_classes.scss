@@ -41,29 +41,29 @@
 	float: none;
 }
 
-.fw-200#{$class}, .fw-l#{$class},
-.fw-200#{$class}-hover:hover, .fw-l#{$class}-hover:hover {
+.fw-200#{$class},
+.fw-200#{$class}-hover:hover {
 	font-weight: 200;
 }
 
-.fw-300#{$class}, .fw-t#{$class},
-.fw-300#{$class}-hover:hover, .fw-t#{$class}-hover:hover {
+.fw-300#{$class},
+.fw-300#{$class}-hover:hover {
 	font-weight: 300;
 }
 
-.fw-400#{$class}, .fw-n#{$class},
-.fw-400#{$class}-hover:hover, .fw-n#{$class}-hover:hover {
-	font-weight: normal;
+.fw-400#{$class},
+.fw-400#{$class}-hover:hover {
+	font-weight: 400;
 }
 
-.fw-500#{$class}, .fw-sb#{$class},
-.fw-500#{$class}-hover:hover, .fw-sb#{$class}-hover:hover {
+.fw-500#{$class},
+.fw-500#{$class}-hover:hover {
 	font-weight: 500;
 }
 
-.fw-600#{$class}, .fw-b#{$class},
-.fw-600#{$class}-hover:hover, .fw-b#{$class}-hover:hover  {
-	font-weight: bold;
+.fw-600#{$class},
+.fw-600#{$class}-hover:hover {
+	font-weight: 600;
 }
 
 .ta-l#{$class} {
