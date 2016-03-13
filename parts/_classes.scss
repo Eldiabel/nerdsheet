@@ -125,24 +125,24 @@
 @each $size in $sizing {
 	@if $size != "auto" {
 		@if $size >= 0 {
-			.v-p-#{$size}#{$class} {
+			.p-v-#{$size}#{$class} {
 				@extend .p-t-#{$size}#{$class};
 				@extend .p-b-#{$size}#{$class};
 			}
 
-			.h-p-#{$size}#{$class} {
+			.p-h-#{$size}#{$class} {
 				@extend .p-l-#{$size}#{$class};
 				@extend .p-r-#{$size}#{$class};
 			}
 		}
 	}
 
-	.v-m-#{$size}#{$class} {
+	.m-v-#{$size}#{$class} {
 		@extend .m-t-#{$size}#{$class};
 		@extend .m-b-#{$size}#{$class};
 	}
 
-	.h-m-#{$size}#{$class} {
+	.m-h-#{$size}#{$class} {
 		@extend .m-l-#{$size}#{$class};
 		@extend .m-r-#{$size}#{$class};
 	}
