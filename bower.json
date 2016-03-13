@@ -5,7 +5,7 @@
     "Vojtěch Gintner <vojtechgintner@gmail.com>"
   ],
   "description": "Lightweight library of shorthand CSS classes for ultrafast HTML markup or prototyping.",
-  "main": "dist/nerdsheet.css",
+  "main": "dist/nerdsheet.min.css",
   "moduleType": [],
   "license": "MIT",
   "ignore": [
