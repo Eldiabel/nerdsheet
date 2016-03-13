@@ -1,0 +1,5 @@
+[Tt]humbs.db
+*.DS_Store
+package.json
+node_modules
+node_modules/*
