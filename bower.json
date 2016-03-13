@@ -2,10 +2,10 @@
   "name": "nerdsheet",
   "homepage": "https://github.com/Eldiabel/nerdsheet",
   "authors": [
-    "Vojtěch Gintner"
+    "Vojtěch Gintner <vojtechgintner@gmail.com>"
   ],
-  "description": "Frontend CSS class library",
-  "main": "_nerdsheet.scss",
+  "description": "Lightweight library of shorthand CSS classes for ultrafast HTML markup or prototyping.",
+  "main": "dist/nerdsheet.css",
   "moduleType": [],
   "license": "MIT",
   "ignore": [
