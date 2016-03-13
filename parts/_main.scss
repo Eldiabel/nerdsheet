@@ -38,13 +38,13 @@
 	@include vendor(border-radius, #{$rounded} 0 0 #{$rounded});
 }
 
-.fs-normal,
-.fs-normal-hover:hover {
+.fs-n,
+.fs-n-hover:hover {
 	font-style: normal;
 }
 
-.fs-italic,
-.fs-italic-hover:hover {
+.fs-i,
+.fs-i-hover:hover {
 	font-style: italic;
 }
 
