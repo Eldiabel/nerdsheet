@@ -1,5 +1,5 @@
 @each $class, $overflow in $overflows {
-	.of-#{$class} {
+	.o-#{$class} {
 		overflow: #{$overflow};
 	}
 }
