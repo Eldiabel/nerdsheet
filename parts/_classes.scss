@@ -29,15 +29,15 @@
 	display: table-cell;
 }
 
-.fleft#{$class}, .f-l#{$class} {
+.f-l#{$class} {
 	float: left;
 }
 
-.fright#{$class}, .f-r#{$class} {
+.f-r#{$class} {
 	float: right;
 }
 
-.fnone#{$class}, .f-n#{$class} {
+.f-n#{$class} {
 	float: none;
 }
 
