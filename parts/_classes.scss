@@ -94,6 +94,10 @@
 	vertical-align: bottom!important;
 }
 
+.va-ba#{$class} {
+	vertical-align: baseline!important;
+}
+
 @each $name, $color in $colors {
 	.c-#{$name}#{$class},
 	.c-#{$name}#{$class}-hover:hover {
