@@ -22,6 +22,22 @@
 	@include vendor(border-radius, #{$rounded});
 }
 
+.rounded-tl {
+	@include vendor(border-top-left-radius, #{$rounded});
+}
+
+.rounded-tr {
+	@include vendor(border-top-right-radius, #{$rounded});
+}
+
+.rounded-bl {
+	@include vendor(border-bottom-left-radius, #{$rounded});
+}
+
+.rounded-br {
+	@include vendor(border-bottom-right-radius, #{$rounded});
+}
+
 .rounded-t {
 	@include vendor(border-radius, #{$rounded} #{$rounded} 0 0);
 }

@@ -218,7 +218,7 @@ border-width | bo-**2** | 2px
 
 ##### Border radius:
 
-Type | Class | Size
+Type | Class | Value
 --- | --- | --- | --- 
 border-radius | circle | 50%
 border-radius | square | 0
@@ -227,6 +227,10 @@ border-radius | rounded-**t** | 4px 4px 0 0
 border-radius | rounded-**r** | 0 4px 4px 0
 border-radius | rounded-**b** | 0 0 4px 4px
 border-radius | rounded-**l** | 4px 0 0 4px
+border-top-left-radius | rounded-**tl** | 4px
+border-top-right-radius | rounded-**tr** | 4px
+border-bottom-left-radius | rounded-**bl** | 4px
+border-bottom-right-radius | rounded-**br** | 4px
 
 ### States
 
