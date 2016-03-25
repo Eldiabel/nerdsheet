@@ -1,7 +1,19 @@
-@each $med, $size in $medias {
-	@each $class, $media in $size {
-		@media screen and (#{$med}#{$media}) {
-			@import 'classes';
-		}
-	}
+@media screen and (min-width: nth(nth($mins, 1), 2)) {
+	$class: #{unquote(nth(nth($mins, 1), 1))};
+	@import 'classes';
+}
+
+@media screen and (min-width: nth(nth($mins, 2), 2)) {
+	$class: #{unquote(nth(nth($mins, 2), 1))};
+	@import 'classes';
+}
+
+@media screen and (min-width: nth(nth($mins, 3), 2)) {
+	$class: #{unquote(nth(nth($mins, 3), 1))};
+	@import 'classes';
+}
+
+@media screen and (min-width: nth(nth($mins, 4), 2)) {
+	$class: #{unquote(nth(nth($mins, 4), 1))};
+	@import 'classes';
 }
