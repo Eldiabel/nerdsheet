@@ -1,6 +1,6 @@
 # Nerdsheet CSS
 
-Nerdsheet allows you to set simple styling to elements with just a few shorthand classes
+Nerdsheet allows you to simply set expressive styling to elements with just a few shorthand classes
 
 ## Code Example
 
