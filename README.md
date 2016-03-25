@@ -45,6 +45,10 @@ As a hardcore [Twitter Bootstrap](http://getbootstrap.com) user you can often ru
 bower install nerdsheet --save
 ```
 
+```bash
+git clone git://github.com/Eldiabel/nerdsheet.git
+```
+
 ## Usage
 ```html
 <element class="classname-type-value-media-state" />
