@@ -236,14 +236,14 @@ border-bottom-right-radius | rounded-**br** | 4px
 
 These classes support hover state:
 
-* font-size -> **fs**-*options*-**hover**
-* font-weight -> **fw**-*options*-**hover**
-* font-style -> **fs**-*options*-**hover**
-* text-decoration -> **td**-*options*-**hover**
-* color -> **c**-*options*-**hover**
+* font-size        -> **fs**-*options*-**hover**
+* font-weight      -> **fw**-*options*-**hover**
+* font-style       -> **fs**-*options*-**hover**
+* text-decoration  -> **td**-*options*-**hover**
+* color            -> **c**-*options*-**hover**
 * background-color -> **b**-*options*-**hover**
-* border-color -> **bo**-*options*-**hover**
-* border-width -> **bo**-*options*-**hover**
+* border-color     -> **bo**-*options*-**hover**
+* border-width     -> **bo**-*options*-**hover**
 
 ## License
 
